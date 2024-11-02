@@ -33,7 +33,7 @@ public class EJER_4 {
         }else if (calificacion >=60 && calificacion < 50){
             System.out.println("El alumno tiene D");
             
-        }else if (calificacion >=50 && calificacion < 0){
+        }else if (calificacion <60){
             System.out.println("El alumno tiene E");
         }
         //EJERCICIO 7
@@ -53,6 +53,34 @@ public class EJER_4 {
         respuesta = precio - (precio * precioFinal);
         System.out.println("El precio final de producto es: "+respuesta);
     
+        //EJERCICIO 8
+        char letra;
+        
+        System.out.println("Ingresar letra");
+        letra = teclado.nextLine().charAt(0);//Ingresar caracter
+        
+        switch (letra){
+            case 'a':
+                System.out.println("Es una vocal: ");
+                break;
+                
+            case 'e':
+                System.out.println("Es una vocal: ");
+                break;
+                
+            case 'i':
+                System.out.println("Es una vocal: ");
+                break;
+                
+            case 'o':
+                System.out.println("Es una vocal: ");
+                break;
+                
+            case 'u':
+                System.out.println("Es una vocal: ");
+                
+            default :
+                System.out.println("Es una consonante");
 }
         
         
