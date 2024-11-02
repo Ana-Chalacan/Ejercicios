@@ -81,9 +81,36 @@ public class EJER_4 {
                 
             default :
                 System.out.println("Es una consonante");
+                
 }
+  //EJERCICIO 10
+  
+  int opcion;
+  double base, altura, respuesta, lado;
+  
+        System.out.println("1.Triangulo");
+        System.out.println("2.Cuadrado");
+        System.out.println("3.Circulo");
+        System.out.println("Ingresar otra opcion para salir");
         
+        System.out.println("Elija una opcion");
+        opcion = teclado.nextInt();
         
+        switch (opcion){
+            case 1:
+                System.out.println("Ingresar base del traingulo");
+                base = teclado.nextDouble();
+                
+                System.out.println("Ingresar altura del traingulo");
+                altura = teclado.nextDouble();
+               
+                
+                
+                
+            case 2
+                    
+            case 3
+        }
         
            
     }
